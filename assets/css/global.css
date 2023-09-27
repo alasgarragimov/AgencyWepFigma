@@ -1,0 +1,24 @@
+@import url("./reset.css");
+@import url("./style.css");
+@import url("Poppins/font.css");
+:root {
+    /* #COLORS */
+    --colorWhite: #FFF;
+    --colorBlack: #000;
+    --colorText: #5C5C5C;
+    --colorText2: #868686;
+    --colorText2: #969696;
+    --colorBorderBotom: #C4C4C4;
+    --headerColor: #1090CB;
+    --colorAfterCircle: #08D3BB;
+    /* #FONTS */
+    --font_popins_900: Poppins_black_900;
+    --font_popins_800: Poppins_extra_bold_800;
+    --font_popins_700: Poppins_bold_700;
+    --font_popins_600: Poppins_semi_bold_600;
+    --font_popins_500: Poppins_medium_500;
+    --font_popins_400: Poppins_regular_400;
+    --font_popins_300: Poppins_light_300;
+    --font_popins_200: Poppins_extra_light_200;
+    --font_popins_100: Poppins_thin_100;
+}
