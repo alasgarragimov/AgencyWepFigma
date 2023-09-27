@@ -189,3 +189,68 @@
             top: 17.5rem;
             /* top: 280px; */
         }
+        
+        .description_container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2.75rem 0;
+            /* gap: 32px;
+            padding: 44px 0; */
+        }
+        
+        .wepsite_conten {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .wep_img1 {
+            padding: 1.625rem;
+            border-radius: 1.25rem;
+            /* padding: 26px;
+            border-radius: 20px; */
+            background-color: var( --wepSite);
+        }
+        
+        .wep_img2 {
+            padding: 1.625rem;
+            border-radius: 1.25rem;
+            /* padding: 26px;
+            border-radius: 20px; */
+            background-color: var( --seoTag);
+        }
+        
+        .wep_img3 {
+            padding: 1.625rem;
+            border-radius: 1.25rem;
+            /* padding: 26px;
+            border-radius: 20px; */
+            background-color: var(--immersive);
+        }
+        
+        .wep_img4 {
+            padding: 1.625rem;
+            border-radius: 1.25rem;
+            /* padding: 26px;
+            border-radius: 20px; */
+            background-color: var(--codding);
+        }
+        
+        .aplication_text {
+            color: var(--colorBlack);
+            font-family: var( --font_popins_500);
+            font-size: 1.25rem;
+            /* font-size: 20px; */
+            line-height: 175%;
+            /* 35px */
+        }
+        
+        .aplication_parag {
+            color: var( --colorText3);
+            font-family: var( --font_popins_400);
+            font-size: 0.938rem;
+            /* font-size: 15px; */
+            line-height: 175%;
+            /* 26.25px */
+        }

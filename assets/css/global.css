@@ -7,11 +7,15 @@
     --colorBlack: #000;
     --colorText: #5C5C5C;
     --colorText2: #868686;
-    --colorText2: #969696;
+    --colorText3: #969696;
     --colorBorderBotom: #C4C4C4;
     --headerColor: #1090CB;
     --mainBackground: rgba(16, 144, 203, 0.10);
     --colorAfterCircle: #08D3BB;
+    --wepSite: #EFEAFF;
+    --seoTag: #ECFFDA;
+    --immersive: #DAE6FF;
+    --codding: #FFE5DA;
     /* #FONTS */
     --font_popins_900: Poppins_black_900;
     --font_popins_800: Poppins_extra_bold_800;
