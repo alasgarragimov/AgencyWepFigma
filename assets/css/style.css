@@ -176,7 +176,7 @@
         
         .vector1 {
             position: absolute;
-            left: 38rem;
+            left: 38.5rem;
             /* left: 618px; */
             top: 17.75rem;
             /* top: 284px; */
@@ -198,6 +198,7 @@
             padding: 2.75rem 0;
             /* gap: 30px;
             padding: 44px 0; */
+            border-bottom: solid 0.7px var( --borderBottomAsside1);
         }
         
         .wepsite_conten {
