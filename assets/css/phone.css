@@ -1,7 +1,7 @@
 .centric_container {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 56px;
     padding-top: 114px;
 }
 
@@ -35,7 +35,7 @@
     font-family: var(--font_popins_400);
     font-size: 18px;
     line-height: 175%;
-    /* 31.5px */
+    /* 31.5008px */
 }
 
 .center_left_container {
@@ -68,7 +68,7 @@
     font-family: var(--font_popins_500);
     font-size: 17px;
     line-height: 175%;
-    /* 29.75px */
+    /* 29.7504px */
 }
 
 .happy_parag2 {
@@ -76,7 +76,7 @@
     font-family: var( --font_popins_400);
     font-size: 14px;
     line-height: 175%;
-    /* 24.5px */
+    /* 24.5008px */
 }
 
 .dummy_container {
@@ -112,6 +112,7 @@
 
 .recent_image_container {
     width: 35%;
+    object-fit: cover;
     position: relative;
 }
 
@@ -124,15 +125,17 @@
 
 /* ******************* */
 
-.recent_image_container_duble {
+.recent_image_conduble {
     width: 35%;
     position: relative;
+    z-index: 1;
 }
 
-.elipse_duble2 {
+.elipse {
     position: absolute;
-    right: 600px;
-    top: 400px;
+    top: -50px;
+    left: -30px;
+    z-index: -1;
 }
 
 .centric_container_duble {
@@ -173,7 +176,7 @@
     font-family: var(--font_popins_500);
     font-size: 17px;
     line-height: 175%;
-    /* 29.75px */
+    /* 29.7504px */
 }
 
 .happy_duble_parag2 {
@@ -181,7 +184,7 @@
     font-family: var( --font_popins_400);
     font-size: 14px;
     line-height: 175%;
-    /* 24.5px */
+    /* 24.5008px */
 }
 
 .dummy_container_duble {
