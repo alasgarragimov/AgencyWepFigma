@@ -13,6 +13,7 @@
 }
 
 .center_text {
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -39,6 +40,7 @@
 }
 
 .center_left_container {
+    width: 100%;
     display: flex;
     align-items: center;
     padding-left: 124px;
@@ -46,7 +48,7 @@
 }
 
 .happy_public_container {
-    width: 45%;
+    width: 44%;
     display: flex;
     flex-direction: column;
     gap: 45px;
@@ -99,7 +101,7 @@
     font-family: var(--font_popins_600);
     font-size: 30px;
     line-height: 170%;
-    /* 51px */
+    /* 3.1875rem */
 }
 
 .dummy_parag {
@@ -111,7 +113,7 @@
 }
 
 .recent_image_container {
-    width: 35%;
+    width: 40%;
     object-fit: cover;
     position: relative;
 }
@@ -215,4 +217,91 @@
     font-size: 16px;
     line-height: 170%;
     /* 27.2px */
+}
+
+
+/* ************************ */
+
+.centric_focus {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 86px;
+}
+
+.focus_left_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 124px;
+    padding-right: 64px;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+}
+
+.happy_focus_container {
+    flex-grow: 6;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.focus_small_cont {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.focus_icon img {
+    padding: 16px;
+    background-color: var(--colorAfterCircle);
+    border-radius: 50%;
+}
+
+.focus_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding-right: 38px;
+}
+
+.focus_h3 {
+    color: var(--colorBlack);
+    font-family: var(--font_popins_600);
+    font-size: 30px;
+    line-height: 170%;
+    /* 51px */
+}
+
+.focus_span {
+    color: var( --headerColor);
+    font-family: var(--font_popins_600);
+    font-size: 30px;
+    line-height: 170%;
+    /* 51px */
+}
+
+.focus_parag {
+    color: var( --colorText4);
+    font-family: var(--font_popins_400);
+    font-size: 16px;
+    line-height: 170%;
+    /* 27.2px */
+}
+
+.focus_img {
+    display: flex;
+    position: relative;
+}
+
+.focus-img img {
+    object-fit: cover;
+}
+
+.focus-img-elipse {
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    z-index: -1;
 }
