@@ -13,6 +13,8 @@
     --colorText3: #969696;
     --colorText4: #545454;
     --colorText5: #515151;
+    --colorText7: #686868;
+    --inputcolor: #787878;
     --colorText6: #00329B;
     --borderBottomAsside1: #C7C7C7;
     --colorBorderBotom: #C4C4C4;
@@ -25,6 +27,7 @@
     --immersive: #DAE6FF;
     --codding: #FFE5DA;
     --colorCard: #F4F4F4;
+    --footerColor: #D2D2D2;
     /* #FONTS */
     --font_popins_900: Poppins_black_900;
     --font_popins_800: Poppins_extra_bold_800;

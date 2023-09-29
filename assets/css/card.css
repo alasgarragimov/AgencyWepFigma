@@ -1,27 +1,27 @@
 .section_cont {
     width: 100%;
     display: flex;
-    gap: 50px;
-    padding: 0 124px;
-    padding-top: 234px;
+    gap: 3.125rem;
+    padding: 0 7.75rem;
+    padding-top: 14.625rem;
     position: relative;
 }
 
 .bell_icon {
     position: absolute;
-    bottom: -2220px;
-    left: 1150px;
+    bottom: -153.75rem;
+    left: 70rem;
 }
 
 .card_cont {
     width: 50%;
-    padding-top: 64px;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px;
+    gap: 2.25rem;
     background-color: var(--colorCard);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     border: none;
     overflow: hidden;
 }
@@ -30,26 +30,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px;
-    padding: 0 48px;
+    gap: 2.25rem;
+    padding: 0 3rem;
 }
 
 .card_h3 {
     color: var(--colorBlack1);
     text-align: center;
     font-family: var( --font_popins_600);
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 170%;
-    /* 42.5px */
+    /* 2.6563rem */
 }
 
 .card_paragh {
     color: var( --colorText4);
     text-align: center;
     font-family: var( --font_popins_400);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 170%;
-    /* 27.2px */
+    /* 1.7rem */
 }
 
 .card_btn {
@@ -57,27 +57,27 @@
     color: var(--colorWhite);
     text-align: center;
     font-family: var( --font_popins_500);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 170%;
-    /* 27.2px */
+    /* 1.7rem */
     border: none;
-    margin-bottom: 48px;
-    padding: 12px 34px;
-    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: .75rem 2.125rem;
+    border-radius: .625rem;
 }
 
 
 /* ************************ */
 
 .card_blue_cont {
-    padding-top: 64px;
+    padding-top: 4rem;
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    gap: 2.25rem;
     background-color: var(--headerColor);
     align-items: center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     border: none;
     overflow: hidden;
 }
@@ -85,26 +85,26 @@
 .card_blue_title {
     display: flex;
     flex-direction: column;
-    gap: 36px;
-    padding: 0 48px;
+    gap: 2.25rem;
+    padding: 0 3rem;
 }
 
 .card_blue_h3 {
     color: var(--colorWhite);
     text-align: center;
     font-family: var( --font_popins_600);
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 170%;
-    /* 42.5px */
+    /* 2.6563rem */
 }
 
 .card_blue_paragh {
     color: var(--colorWhite);
     text-align: center;
     font-family: var( --font_popins_400);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 170%;
-    /* 27.2px */
+    /* 1.7rem */
 }
 
 .card_blue_btn {
@@ -112,13 +112,13 @@
     color: var( --headerColor);
     text-align: center;
     font-family: var( --font_popins_500);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 170%;
-    /* 27.2px */
+    /* 1.7rem */
     border: none;
-    margin-bottom: 48px;
-    padding: 12px 34px;
-    border-radius: 10px;
+    margin-bottom: 3rem;
+    padding: .75rem 2.125rem;
+    border-radius: .625rem;
 }
 
 
@@ -134,22 +134,239 @@
 }
 
 .company_nav {
-    padding-top: 184px;
+    padding-top: 11.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: .75rem;
 }
 
 .company_h3 {
     color: var(--colorBlack);
     font-family: var( --font_popins_500);
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 159%;
-    /* 38.16px */
+    /* 2.385rem */
 }
 
 .company_icon {
     display: flex;
-    gap: 116px;
+    gap: 7.25rem;
+}
+
+
+/* ************************************ */
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    padding: 9.25rem 28.75rem;
+    background: var(--backgroundCont);
+    position: relative;
+    margin-top: 5.5rem;
+}
+
+.contact_p {
+    width: 32.25rem;
+    color: var( --colorBlack1);
+    text-align: center;
+    font-family: var( --font_popins_600);
+    font-size: 1.875rem;
+    line-height: 170%;
+    /* 3.1875rem */
+}
+
+.form {
+    display: flex;
+    gap: .875rem;
+}
+
+.form input {
+    width: 33.25rem;
+    background: var(--colorWhite);
+    color: var( --inputcolor);
+    font-family: var( --font_popins_400);
+    font-size: 1rem;
+    line-height: 170%;
+    /* 1.7rem */
+    padding-left: 2.25rem;
+    border-radius: .625rem;
+    border: none;
+    box-shadow: 0rem .25rem 5.25rem 0rem rgba(0, 0, 0, 0.07);
+}
+
+.form button {
+    cursor: pointer;
+    padding: 1.25rem 2.75rem;
+    border: none;
+    border-radius: .625rem;
+    background: var(--colorBlack);
+    color: var( --colorCard);
+    text-align: center;
+    font-family: var( --font_popins_500);
+    font-size: 1rem;
+    line-height: 170%;
+    /* 1.7rem */
+}
+
+.star1 {
+    position: absolute;
+    top: -2.75rem;
+    left: 10.4375rem;
+}
+
+.contact_container img:last-child {
+    position: absolute;
+    top: 5.875rem;
+    right: 24.8125rem;
+}
+
+
+/* **************** */
+
+
+/* ***************** */
+
+
+/* **************** */
+
+
+/* ***************** */
+
+
+/* **************** */
+
+
+/* ***************** */
+
+.footer-top {
+    padding: 5.375rem 6.875rem 3.375rem 6.875rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+}
+
+.parag1 {
+    color: var(--colorText6);
+    font-family: var(--font_popins_700);
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.parag2 {
+    width: 23.25rem;
+    color: var(--colorText5);
+    font-family: var(--font_popins_400);
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.parag3 {
+    color: var(--colorText5);
+    font-family: var(--font_popins_400);
+    font-size: 1rem;
+    line-height: normal;
+}
+
+
+/* ********************PAGE 1******************  */
+
+.f-about-us {
+    width: 5.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: .9375rem;
+}
+
+.about_parag1 {
+    color: var(--colorBlack);
+    font-family: var(--font_popins_500);
+    font-size: 1.0625rem;
+    line-height: normal;
+}
+
+.about_parag2,
+.about_parag3,
+.about_parag4,
+.about_parag5 {
+    color: var(--colorText5);
+    font-family: var(--font_popins_400);
+    font-size: 1rem;
+    line-height: 186.3%;
+    /* 1.863rem */
+}
+
+
+/* ********************PAGE 2******************  */
+
+.f-contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contact-p1 {
+    color: var(--colorBlack);
+    font-family: var(--font_popins_500);
+    font-size: 1.0625rem;
+    line-height: normal;
+}
+
+.f-contact-us-par {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.f-contact-us-par p {
+    width: 17.625rem;
+    color: var( --colorText5);
+    font-family: var(--font_popins_400);
+    font-size: 1rem;
+    line-height: normal;
+}
+
+
+/* ********************PAGE 3******************  */
+
+.f-socials {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 1.0625rem;
+    box-shadow: 0rem .25rem .875rem rgba(0, 0, 0, 0.15);
+}
+
+.socials img {
+    width: .75rem;
+}
+
+
+/* ********************PAGE 4******************  */
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    padding: 1.75rem 0;
+    border-top: solid .05rem var( --footerColor);
+    color: var(--colorText7);
+    font-family: var(--font_popins_400);
+    font-size: .8125rem;
+    line-height: 190.6%;
+    /* 1.5486rem */
 }
